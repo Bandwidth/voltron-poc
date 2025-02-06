@@ -23,7 +23,7 @@ module.exports = {
       filename: "index.html",
     }),
     new ModuleFederationPlugin({
-      name: "app",
+      name: "lunch_workout_app",
       filename: "remoteEntry.js",
       remotes: {
         homepage: "homepage@http://localhost:3006/remoteEntry.js",
@@ -38,7 +38,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(jsx|js|tsx)$/,
+        test: /\.(jsx|js|tsx|ts)$/,
         include: path.resolve(__dirname, "src"),
         exclude: path.resolve(__dirname, "node_modules"),
         use: [

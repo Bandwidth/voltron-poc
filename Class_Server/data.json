@@ -36,7 +36,7 @@
     "name": "Men's Basketball",
     "class": false,
     "image": "yoga-slow-flow.jpg",
-    "description": "Men playing basketball.",
+    "description": "A casual game of basketball.",
     "days": ["Monday", "Wednesday", "Thursday"]
   },
   {
@@ -44,7 +44,7 @@
     "name": "Women's Basketball",
     "class": false,
     "image": "yoga-slow-flow.jpg",
-    "description": "Men playing basketball.",
+    "description": "A casual game of basketball.",
     "days": ["Tuesday", "Wednesday"]
   },
   {
@@ -52,7 +52,7 @@
     "name": "Volleyball",
     "class": false,
     "image": "yoga-slow-flow.jpg",
-    "description": "Men playing basketball.",
+    "description": "A casual game of volleyball",
     "days": ["Monday", "Thursday"]
   }
 ]

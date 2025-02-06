@@ -32,7 +32,8 @@ module.exports = {
         "./QuickBooking": "./src/QuickBooking.tsx",
       },
       remotes: {
-        app: "app@http://localhost:3004/remoteEntry.js",
+        lunch_workout_app:
+          "lunch_workout_app@http://localhost:3004/remoteEntry.js",
       },
       shared: ["react", "react-dom"],
     }),
@@ -40,7 +41,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(jsx|js|tsx)$/,
+        test: /\.(jsx|js|tsx|ts)$/,
         include: path.resolve(__dirname, "src"),
         exclude: path.resolve(__dirname, "node_modules"),
         use: [

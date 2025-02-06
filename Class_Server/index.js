@@ -16,7 +16,6 @@ App.get("/data/:id", (req, res) => {
   data.find((item) => {
     console.log(item.id, req.params.id);
     if (item.id === parseInt(req.params.id)) {
-      // res.send(movie.imageUrl);
       const options = {
         root: path.join(__dirname, "assets/images/"),
       };
@@ -32,6 +31,20 @@ App.get("/data/:id", (req, res) => {
       });
     }
   });
+});
+
+App.get("/day/:day", (req, res) => {
+  const day = req.params.day;
+  const item = data.filter((item) =>
+    item.days.some((d) => d.toLowerCase() === day.toLowerCase())
+  );
+
+  if (item) {
+    console.log("hi stinky", item);
+    res.send(item);
+  } else {
+    res.sendStatus(404);
+  }
 });
 
 App.listen(5555, () => {

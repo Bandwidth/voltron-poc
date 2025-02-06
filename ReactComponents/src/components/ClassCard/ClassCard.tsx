@@ -6,8 +6,8 @@ const ClassCard = ({ name, description, image, onClick }) => {
   console.log("image", image);
   return (
     <Card style={{ border: "1px solid black" }} onClick={onClick}>
-      <Typography tag="h3" children={name} />
-      <CardBody>
+      <Typography tag="h3" children={name} classes="p-3" />
+      <CardBody classes="px-3">
         <img
           src={image}
           alt={name}
