@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Yoga: Slow Flow",
+    "class": true,
+    "image": "yoga-slow-flow.jpg",
+    "description": "This is a yoga class that moves slowly and holds poses for longer than other yoga classes. It's a gentle practice that's good for beginners and those who want to de-stress. ",
+    "days": ["Wednesday", "Thursday"]
+  },
+  {
+    "id": 2,
+    "name": "Yoga: Vinyasa Flow",
+    "class": true,
+    "image": "yoga-slow-flow.jpg",
+    "description": "This yoga practice is active and fast-paced, and sequences often include balancing and backbending postures. The term vinyasa refers to the alignment of movement with the breath, so although you may also hold poses for a few breaths, you'll move from one pose to the next using the inhalation and exhalation.",
+    "days": ["Tuesday"]
+  },
+  {
+    "id": 3,
+    "name": "Metabolic Conditioning",
+    "class": true,
+    "image": "yoga-slow-flow.jpg",
+    "description": "A class that combines strength and cardio conditioning into a circuit of moderate and high intensity exercises.",
+    "days": ["Monday", "Wednesday"]
+  },
+  {
+    "id": 4,
+    "name": "Trampoline Fitness",
+    "class": true,
+    "image": "yoga-slow-flow.jpg",
+    "description": "A class that combines strength and cardio conditioning into a circuit of moderate and high intensity exercises.",
+    "days": ["Friday"]
+  },
+  {
+    "id": 5,
+    "name": "Men's Basketball",
+    "class": false,
+    "image": "yoga-slow-flow.jpg",
+    "description": "Men playing basketball.",
+    "days": ["Monday", "Wednesday", "Thursday"]
+  },
+  {
+    "id": 6,
+    "name": "Women's Basketball",
+    "class": false,
+    "image": "yoga-slow-flow.jpg",
+    "description": "Men playing basketball.",
+    "days": ["Tuesday", "Wednesday"]
+  },
+  {
+    "id": 7,
+    "name": "Volleyball",
+    "class": false,
+    "image": "yoga-slow-flow.jpg",
+    "description": "Men playing basketball.",
+    "days": ["Monday", "Thursday"]
+  }
+]
