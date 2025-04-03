@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  schemaVersion: v1.0.0
+  name: voltron-poc
+  description: Forked from https://github.com/ninavtan/lunch-workout-app
+  annotations:
+    github.com/project-slug: Bandwidth/voltron-poc
+  organization: BW
+  costCenter: Development - CX:Portal
+  platformType: AWS
+  buildPlatform: N/A
+spec:
+  type: Service
+  owner: github/band-forge
+  lifecycle: |
+    Prototype
+    dependsOn:
+        - resource:platform/AWS
+        - resource:cost-center/Development - CX:Portal
