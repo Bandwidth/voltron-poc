@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  schemaVersion: v1.0.0
+  name: voltron-poc-location
+  description: Links to additional entities in the voltron-poc repository.
+  annotations:
+    github.com/project-slug: Bandwidth/voltron-poc
+spec:
+  targets:
+    - ./component.yaml
